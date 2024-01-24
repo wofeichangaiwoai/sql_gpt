@@ -1,0 +1,6 @@
+.idea
+notebook/.ipynb_checkpoints
+.github/
+**/__pycache__
+**/.ipynb_checkpoints
+*.log

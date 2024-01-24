@@ -1,0 +1,8 @@
+llamacpp
+vllm
+tgi
+langchain
+pyhive
+transformers
+tqpm
+sqlalchemy
