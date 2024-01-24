@@ -15,7 +15,7 @@ from langchain.callbacks.manager import (
 from langchain.chains.base import Chain
 from langchain.prompts.base import BasePromptTemplate
 
-from ubix.common.llm import llm
+from unix.common.llm import llm
 
 """
    easy_template and hard_template are few shot prompt for generating sql

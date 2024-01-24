@@ -12,6 +12,6 @@ you like.
 1. pip install -r requirements.txt
 2. Configure your database connection information, including hostname, username, password, etc. for database interaction.
 3. Configure tgi image if you want to use tgi framework.
-4. If you want to use DIN-sql, execute the command:  PYTHONPATH=. LLM_TYPE=din python ubix/common/answer.py
-   If you want to use langchain sqlchain, execute the command:  PYTHONPATH=. LLM_TYPE=vllm python ubix/common/answer.py
+4. If you want to use DIN-sql, execute the command:  PYTHONPATH=. LLM_TYPE=din python unix/common/answer.py
+   If you want to use langchain sqlchain, execute the command:  PYTHONPATH=. LLM_TYPE=vllm python unix/common/answer.py
 

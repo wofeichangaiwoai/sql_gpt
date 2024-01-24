@@ -3,8 +3,8 @@ from datetime import datetime
 from sqlalchemy.engine import create_engine
 from trino.sqlalchemy import URL
 
-from ubix.chain.sql.sql_base import SQLDatabaseChainEx, SQLDatabaseEx
-from ubix.common.llm import llm
+from unix.chain.sql.sql_base import SQLDatabaseChainEx, SQLDatabaseEx
+from unix.common.llm import llm
 
 def get_db_chain(llm):
     hive_host = ""
@@ -52,5 +52,5 @@ if __name__ == "__main__":
     logging.info("⏰ " + f"Query: cost:{duration:.0f} sec seconds")
 
 """
-PYTHONPATH=.  LLM_TYPE=tgi python ubix/chain/chain_sql_ubix.py
+PYTHONPATH=.  LLM_TYPE=tgi python unix/chain/chain_sql_ubix.py
 """

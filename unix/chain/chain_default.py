@@ -1,5 +1,5 @@
 from langchain import LLMChain
-from ubix.common.llm import llm
+from unix.common.llm import llm
 from langchain.prompts import PromptTemplate
 
 template = """you are a chatbot having a conversation with a human.

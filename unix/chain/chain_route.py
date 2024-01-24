@@ -2,7 +2,7 @@ from datetime import datetime
 
 from langchain import PromptTemplate, LLMChain
 from tqdm import tqdm
-from ubix.common.llm import llm
+from unix.common.llm import llm
 
 def get_route_chain(llm):
     """
@@ -71,5 +71,5 @@ if __name__ == '__main__':
             print(f"⏰ " + f"End ask about question {question}, cost:{duration} sec, answer:{answer}\n" + "<<<<"*10)
 
 """
-CUDA_VISIBLE_DEVICES=0,1 LLM_TYPE=tgi  python ubix/chain/chain_route.py
+CUDA_VISIBLE_DEVICES=0,1 LLM_TYPE=tgi  python unix/chain/chain_route.py
 """

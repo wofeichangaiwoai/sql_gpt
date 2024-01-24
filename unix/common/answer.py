@@ -5,7 +5,7 @@ from requests.exceptions import ConnectionError
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 import route.router as router
-from ubix.chain.chain_route import get_route_chain
+from unix.chain.chain_route import get_route_chain
 
 from datetime import datetime
 import os
@@ -58,6 +58,6 @@ if __name__ == '__main__':
                get_answer(question)
 
 """
-   for din_sql: PYTHONPATH=. LLM_TYPE=din python ubix/common/answer.py
-   for sql chain: PYTHONPATH=. LLM_TYPE=din python ubix/common/answer.py
+   for din_sql: PYTHONPATH=. LLM_TYPE=din python unix/common/answer.py
+   for sql chain: PYTHONPATH=. LLM_TYPE=din python unix/common/answer.py
 """

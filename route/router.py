@@ -1,11 +1,11 @@
 
 from datetime import datetime
 
-from ubix.chain.chain_din_sql import get_din_chain
-from ubix.chain.chain_default import get_default_chain
-from ubix.chain.chain_route import get_route_chain
-from ubix.chain.chain_sql_ubix import get_db_chain
-from ubix.common.llm import llm
+from unix.chain.chain_din_sql import get_din_chain
+from unix.chain.chain_default import get_default_chain
+from unix.chain.chain_route import get_route_chain
+from unix.chain.chain_sql_ubix import get_db_chain
+from unix.common.llm import llm
 from tqdm import tqdm
 import os
 
